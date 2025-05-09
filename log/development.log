@@ -233,3 +233,49 @@ Processing by SitesController#index as HTML
 Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 2046)
 
 
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('6825223622792913345', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to CreateReservations (20250509061356)
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE `reservations` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `user_id` bigint NOT NULL, `site_id` bigint NOT NULL, `start_date` date NOT NULL, `end_date` date NOT NULL, `status` varchar(255) DEFAULT 'pending' NOT NULL, `payment_status` varchar(255) DEFAULT 'unpaid' NOT NULL, `total_price` int DEFAULT 0 NOT NULL, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, INDEX `index_reservations_on_user_id` (`user_id`), INDEX `index_reservations_on_site_id` (`site_id`), CONSTRAINT `fk_rails_48a92fce51`
+FOREIGN KEY (`user_id`)
+  REFERENCES `users` (`id`)
+, CONSTRAINT `fk_rails_794d05d7e9`
+FOREIGN KEY (`site_id`)
+  REFERENCES `sites` (`id`)
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('6825223622792913345')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('6825223622792913345', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to CreateReservations (20250509061356)
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE TABLE `reservations` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `user_id` bigint NOT NULL, `site_id` bigint NOT NULL, `start_date` date NOT NULL, `end_date` date NOT NULL, `status` varchar(255) DEFAULT 'pending' NOT NULL, `payment_status` varchar(255) DEFAULT 'unpaid' NOT NULL, `total_price` int DEFAULT 0 NOT NULL, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, INDEX `index_reservations_on_user_id` (`user_id`), INDEX `index_reservations_on_site_id` (`site_id`), CONSTRAINT `fk_rails_48a92fce51`
+FOREIGN KEY (`user_id`)
+  REFERENCES `users` (`id`)
+, CONSTRAINT `fk_rails_794d05d7e9`
+FOREIGN KEY (`site_id`)
+  REFERENCES `sites` (`id`)
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('6825223622792913345')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('6825223622792913345', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to CreateSites (20250509062947)
+  [1m[35m (14.2ms)[0m  [1m[35mCREATE TABLE `sites` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255) NOT NULL, `capacity` int NOT NULL, `price` int NOT NULL, `description` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20250509062947')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('6825223622792913345')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('6825223622792913345', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to CreateReservations (20250509061356)
+  [1m[35m (17.5ms)[0m  [1m[35mCREATE TABLE `reservations` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `user_id` bigint NOT NULL, `site_id` bigint NOT NULL, `start_date` date NOT NULL, `end_date` date NOT NULL, `status` varchar(255) DEFAULT 'pending' NOT NULL, `payment_status` varchar(255) DEFAULT 'unpaid' NOT NULL, `total_price` int DEFAULT 0 NOT NULL, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, INDEX `index_reservations_on_user_id` (`user_id`), INDEX `index_reservations_on_site_id` (`site_id`), CONSTRAINT `fk_rails_48a92fce51`
+FOREIGN KEY (`user_id`)
+  REFERENCES `users` (`id`)
+, CONSTRAINT `fk_rails_794d05d7e9`
+FOREIGN KEY (`site_id`)
+  REFERENCES `sites` (`id`)
+)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20250509061356')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('6825223622792913345')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
