@@ -2,3 +2,102 @@
   [1m[35m (1.7ms)[0m  [1m[35mCREATE DATABASE `original_app_42274_test` DEFAULT CHARACTER SET `utf8`[0m
   [1m[35m (1.9ms)[0m  [1m[35mCREATE DATABASE `original_app_42274_development` DEFAULT CHARACTER SET `utf8`[0m
   [1m[35m (1.3ms)[0m  [1m[35mCREATE DATABASE `original_app_42274_test` DEFAULT CHARACTER SET `utf8`[0m
+Started GET "/" for ::1 at 2025-05-09 11:12:34 +0900
+  [1m[35m (14.9ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (8.5ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 377)
+Completed 200 OK in 17ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 8570)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('6825223622792913345', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (11.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.0ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2025-05-09 02:19:24.946653', '2025-05-09 02:19:24.946656')[0m
+Migrating to DeviseCreateUsers (20250509021511)
+  [1m[35m (12.5ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `name` varchar(255) DEFAULT '' NOT NULL, `phone_number` varchar(255) DEFAULT '' NOT NULL, `postal_code` varchar(255) DEFAULT '' NOT NULL, `address` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime(6), `remember_created_at` datetime(6), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (21.3ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)[0m
+  [1m[35m (10.6ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20250509021511')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('6825223622792913345')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/users/sign_in" for ::1 at 2025-05-09 11:38:00 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.2ms | Allocations: 241)
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 580)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 4081)
+  Rendered layout layouts/application.html.erb (Duration: 129.4ms | Allocations: 100652)
+Completed 200 OK in 152ms (Views: 134.3ms | ActiveRecord: 4.3ms | Allocations: 117321)
+
+
+Started GET "/users/sign_up" for ::1 at 2025-05-09 11:38:08 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 83)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2333)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3432)
+Completed 200 OK in 21ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 7318)
+
+
+Started GET "/users/password/new" for ::1 at 2025-05-09 11:38:09 +0900
+Processing by Devise::PasswordsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 119)
+  Rendered devise/passwords/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 876)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 1975)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 3309)
+
+
+Started GET "/users/sign_up" for ::1 at 2025-05-09 11:38:10 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1250)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2346)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 3352)
+
+
+Started GET "/users/password/new" for ::1 at 2025-05-09 11:38:10 +0900
+Processing by Devise::PasswordsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 112)
+  Rendered devise/passwords/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 604)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 1708)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 2690)
+
+
+Started GET "/users/sign_up" for ::1 at 2025-05-09 11:38:22 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1250)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2349)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 3343)
+
+
+Started GET "/users/sign_in" for ::1 at 2025-05-09 11:38:28 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 114)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 715)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1811)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 2853)
+
+
