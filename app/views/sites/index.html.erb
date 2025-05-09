@@ -10,3 +10,19 @@
     <%= link_to "レンタル・販売品", "#", class: "btn btn-outline-success m-2" %>
   </div>
 </div>
+
+<%= month_calendar do |date| %>
+  <div>
+    <%= date.day %><br>
+
+    <% reservations_count = Reservation.where(start_date: date).count %>
+    <% case reservations_count %>
+    <% when 0 %>
+      <span style="color: green;">〇</span>
+    <% when 1, 2 %>
+      <span style="color: orange;">▲</span>
+    <% else %>
+      <span style="color: red;">×</span>
+    <% end %>
+  </div>
+<% end %>

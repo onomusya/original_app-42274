@@ -1,0 +1,17 @@
+<h1>予約カレンダー</h1>
+
+<%= month_calendar do |date| %>
+  <% reserved_count = Reservation.where(start_date: date).count %>
+  <% total_sites = Site.count %>
+  <% available = total_sites - reserved_count %>
+  <% mark = case available
+    when 3..4 then '◯'
+    when 1..2 then '▲'
+    else '×'
+  end %>
+
+  <div>
+    <strong><%= date.day %></strong><br>
+    空き: <%= mark %>
+  </div>
+<% end %>

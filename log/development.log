@@ -279,3 +279,1903 @@ FOREIGN KEY (`site_id`)
   [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20250509061356')[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('6825223622792913345')[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for ::1 at 2025-05-09 15:43:15 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by SitesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 2.4ms | Allocations: 7129)
+  Rendered sites/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 9252)
+  Rendered layout layouts/application.html.erb (Duration: 130.6ms | Allocations: 108664)
+Completed 200 OK in 147ms (Views: 131.4ms | ActiveRecord: 1.0ms | Allocations: 118658)
+
+
+Started GET "/?start_date=2025-06-02" for ::1 at 2025-05-09 15:43:20 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-06-02"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 10.1ms | Allocations: 9658)
+  Rendered sites/index.html.erb within layouts/application (Duration: 15.1ms | Allocations: 10515)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 12242)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.7ms | Allocations: 12506)
+
+
+Started GET "/?start_date=2025-05-09" for ::1 at 2025-05-09 15:43:21 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-05-09"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 6.9ms | Allocations: 7732)
+  Rendered sites/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 8563)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 10297)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.5ms | Allocations: 10559)
+
+
+Started GET "/?start_date=2025-04-27" for ::1 at 2025-05-09 15:43:23 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-04-27"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 40.6ms | Allocations: 7802)
+  Rendered sites/index.html.erb within layouts/application (Duration: 44.5ms | Allocations: 8633)
+  Rendered layout layouts/application.html.erb (Duration: 66.0ms | Allocations: 10372)
+Completed 200 OK in 68ms (Views: 66.5ms | ActiveRecord: 0.7ms | Allocations: 10635)
+
+
+Started GET "/?start_date=2025-03-30" for ::1 at 2025-05-09 15:43:23 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-03-30"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 8.6ms | Allocations: 9588)
+  Rendered sites/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 10426)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 12158)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.6ms | Allocations: 12420)
+
+
+Started GET "/?start_date=2025-05-09" for ::1 at 2025-05-09 15:43:24 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-05-09"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 6.9ms | Allocations: 7733)
+  Rendered sites/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 8560)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 10276)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.5ms | Allocations: 10532)
+
+
+Started GET "/?start_date=2025-05-05" for ::1 at 2025-05-09 15:43:25 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-05-05"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 7.9ms | Allocations: 7732)
+  Rendered sites/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 8559)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 10260)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.5ms | Allocations: 10517)
+
+
+Started GET "/?start_date=2025-06-02" for ::1 at 2025-05-09 15:43:26 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-06-02"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 8.7ms | Allocations: 9658)
+  Rendered sites/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 10492)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 12235)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.6ms | Allocations: 12491)
+
+
+Started GET "/?start_date=2025-05-09" for ::1 at 2025-05-09 15:43:30 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-05-09"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 8.1ms | Allocations: 7732)
+  Rendered sites/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 8559)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 10272)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.4ms | Allocations: 10528)
+
+
+Started GET "/?start_date=2025-04-27" for ::1 at 2025-05-09 15:43:31 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-04-27"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 7.8ms | Allocations: 7802)
+  Rendered sites/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 8629)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 10345)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.5ms | Allocations: 10601)
+
+
+Started GET "/?start_date=2025-03-30" for ::1 at 2025-05-09 15:43:32 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-03-30"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 7.9ms | Allocations: 9588)
+  Rendered sites/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 10422)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 12141)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.6ms | Allocations: 12397)
+
+
+Started GET "/?start_date=2025-05-09" for ::1 at 2025-05-09 15:43:32 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-05-09"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 10.7ms | Allocations: 7732)
+  Rendered sites/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 8560)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 10285)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.5ms | Allocations: 10541)
+
+
+Started GET "/?start_date=2025-05-05" for ::1 at 2025-05-09 15:43:33 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-05-05"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 11.6ms | Allocations: 7733)
+  Rendered sites/index.html.erb within layouts/application (Duration: 15.3ms | Allocations: 8560)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 10287)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.6ms | Allocations: 10544)
+
+
+Started GET "/?start_date=2025-05-09" for ::1 at 2025-05-09 15:43:33 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-05-09"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 8.4ms | Allocations: 7732)
+  Rendered sites/index.html.erb within layouts/application (Duration: 12.1ms | Allocations: 8559)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 10288)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.6ms | Allocations: 10544)
+
+
+Started GET "/?start_date=2025-05-05" for ::1 at 2025-05-09 15:43:33 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-05-05"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 7.1ms | Allocations: 7732)
+  Rendered sites/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 8559)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 10272)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.6ms | Allocations: 10528)
+
+
+Started GET "/?start_date=2025-06-02" for ::1 at 2025-05-09 15:43:34 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-06-02"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 9.0ms | Allocations: 9658)
+  Rendered sites/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 10492)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 12214)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.6ms | Allocations: 12471)
+
+
+Started GET "/?start_date=2025-05-09" for ::1 at 2025-05-09 15:43:35 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-05-09"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 7.5ms | Allocations: 7732)
+  Rendered sites/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 8559)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 10290)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.5ms | Allocations: 10546)
+
+
+Started GET "/?start_date=2025-06-02" for ::1 at 2025-05-09 15:43:36 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-06-02"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 8.3ms | Allocations: 9658)
+  Rendered sites/index.html.erb within layouts/application (Duration: 11.6ms | Allocations: 10492)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 12202)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.6ms | Allocations: 12458)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSite Create (1.0ms)[0m  [1m[32mINSERT INTO `sites` (`name`, `capacity`, `price`, `description`, `created_at`, `updated_at`) VALUES ('Aサイト', 0, 5000, 'ファミリー、グループ用', '2025-05-09 06:57:08.421936', '2025-05-09 06:57:08.421936')[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSite Create (0.6ms)[0m  [1m[32mINSERT INTO `sites` (`name`, `capacity`, `price`, `description`, `created_at`, `updated_at`) VALUES ('Bサイト', 0, 5000, 'ファミリー、グループ用', '2025-05-09 06:57:08.426376', '2025-05-09 06:57:08.426376')[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSite Create (0.6ms)[0m  [1m[32mINSERT INTO `sites` (`name`, `capacity`, `price`, `description`, `created_at`, `updated_at`) VALUES ('Cサイト', 0, 3000, 'ソロ、デュオ用', '2025-05-09 06:57:08.428126', '2025-05-09 06:57:08.428126')[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSite Create (0.6ms)[0m  [1m[32mINSERT INTO `sites` (`name`, `capacity`, `price`, `description`, `created_at`, `updated_at`) VALUES ('Dサイト', 0, 3000, 'ソロ、デュオ用', '2025-05-09 06:57:08.429794', '2025-05-09 06:57:08.429794')[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mSite Load (0.8ms)[0m  [1m[34mSELECT `sites`.* FROM `sites` /* loading for pp */ LIMIT 11[0m
+Started GET "/?start_date=2025-05-05" for ::1 at 2025-05-09 16:31:24 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-05-05"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 3.0ms | Allocations: 8969)
+  Rendered sites/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 11141)
+  Rendered layout layouts/application.html.erb (Duration: 32.8ms | Allocations: 46967)
+Completed 200 OK in 44ms (Views: 33.8ms | ActiveRecord: 0.9ms | Allocations: 55015)
+
+
+Started GET "/" for ::1 at 2025-05-09 16:31:47 +0900
+Processing by SitesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT `reservations`.* FROM `reservations`[0m
+  ↳ app/views/sites/index.html.erb:16
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 4.2ms | Allocations: 5908)
+  Rendered sites/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 6705)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 8450)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.3ms | Allocations: 8715)
+
+
+Started GET "/reservations" for ::1 at 2025-05-09 16:31:51 +0900
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Count (2.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-28'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mSite Count (1.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-29'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-30'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-01'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-02'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-03'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-04'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-05'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-06'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-07'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-08'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-09'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-10'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-11'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-12'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-13'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-14'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-15'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-16'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-17'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-18'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-19'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-20'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-21'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-22'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-23'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-24'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-25'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-26'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-27'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-28'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-29'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-30'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-31'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-01'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 79.2ms | Allocations: 39839)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 81.0ms | Allocations: 40301)
+  Rendered layout layouts/application.html.erb (Duration: 82.9ms | Allocations: 42048)
+Completed 200 OK in 87ms (Views: 66.6ms | ActiveRecord: 17.5ms | Allocations: 42919)
+
+
+Started GET "/reservations" for ::1 at 2025-05-09 16:32:41 +0900
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-28'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mSite Count (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-29'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-30'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-01'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-02'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-03'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-04'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-05'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-06'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-07'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-08'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-09'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-10'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-11'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-12'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-13'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-14'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-15'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-16'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-17'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-18'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-19'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-20'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-21'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-22'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-23'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-24'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-25'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-26'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-27'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-28'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-29'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-30'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-31'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-01'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 36.6ms | Allocations: 38292)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 37.2ms | Allocations: 38982)
+  Rendered layout layouts/application.html.erb (Duration: 43.3ms | Allocations: 54604)
+Completed 200 OK in 46ms (Views: 30.7ms | ActiveRecord: 13.2ms | Allocations: 57698)
+
+
+Started GET "/reservations" for ::1 at 2025-05-09 16:33:01 +0900
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-28'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mSite Count (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-29'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-30'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-01'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-02'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-03'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-04'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-05'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-06'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-07'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-08'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-09'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-10'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-11'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-12'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-13'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-14'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-15'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-16'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-17'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-18'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-19'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-20'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-21'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-22'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-23'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-24'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-25'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-26'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-27'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-28'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-29'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-30'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-31'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-01'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 33.4ms | Allocations: 38294)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 34.0ms | Allocations: 38979)
+  Rendered layout layouts/application.html.erb (Duration: 41.0ms | Allocations: 54547)
+Completed 200 OK in 44ms (Views: 28.0ms | ActiveRecord: 13.6ms | Allocations: 57639)
+
+
+Started GET "/reservations" for ::1 at 2025-05-09 16:37:14 +0900
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-28'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mSite Count (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-29'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-30'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-01'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-02'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-03'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-04'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-05'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-06'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-07'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-08'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-09'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-10'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-11'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-12'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-13'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-14'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-15'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-16'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-17'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-18'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-19'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-20'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-21'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-22'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-23'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-24'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-25'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-26'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-27'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-28'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-29'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-30'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-31'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-01'[0m
+  ↳ app/views/reservations/index.html.erb:4
+  [1m[36mCACHE Site Count (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `sites`[0m
+  ↳ app/views/reservations/index.html.erb:5
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 34.8ms | Allocations: 38302)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 35.5ms | Allocations: 38992)
+  Rendered layout layouts/application.html.erb (Duration: 40.0ms | Allocations: 54569)
+Completed 200 OK in 43ms (Views: 26.8ms | ActiveRecord: 14.0ms | Allocations: 57661)
+
+
+Started GET "/" for ::1 at 2025-05-09 16:37:29 +0900
+Processing by SitesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-07'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-08'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-09'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-10'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-11'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-12'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-13'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-14'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-15'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-16'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-17'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-18'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-19'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-20'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-21'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-22'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-23'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-24'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-25'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-31'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 44.9ms | Allocations: 22854)
+  Rendered sites/index.html.erb within layouts/application (Duration: 46.3ms | Allocations: 23541)
+  Rendered layout layouts/application.html.erb (Duration: 47.9ms | Allocations: 25288)
+Completed 200 OK in 50ms (Views: 40.9ms | ActiveRecord: 8.1ms | Allocations: 25786)
+
+
+Started GET "/" for ::1 at 2025-05-09 16:37:38 +0900
+Processing by SitesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-07'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-08'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-09'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-10'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-11'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-12'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-13'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-14'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-15'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-16'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-17'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-18'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-19'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-20'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-21'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-22'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-23'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-24'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-25'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-31'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 55.8ms | Allocations: 22850)
+  Rendered sites/index.html.erb within layouts/application (Duration: 56.8ms | Allocations: 23160)
+  Rendered layout layouts/application.html.erb (Duration: 59.3ms | Allocations: 24879)
+Completed 200 OK in 61ms (Views: 49.2ms | ActiveRecord: 10.8ms | Allocations: 25135)
+
+
+Started GET "/?start_date=2025-06-02" for ::1 at 2025-05-09 16:37:58 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-06-02"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-31'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-07'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-08'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-09'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-10'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-11'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-12'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-13'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-14'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-15'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-16'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-17'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-18'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-19'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-20'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-21'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-22'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-23'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-24'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-25'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 45.9ms | Allocations: 29990)
+  Rendered sites/index.html.erb within layouts/application (Duration: 46.9ms | Allocations: 30343)
+  Rendered layout layouts/application.html.erb (Duration: 48.4ms | Allocations: 32069)
+Completed 200 OK in 50ms (Views: 40.3ms | ActiveRecord: 8.6ms | Allocations: 32325)
+
+
+Started GET "/?start_date=2025-06-02" for ::1 at 2025-05-09 16:38:01 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-06-02"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-31'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-07'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-08'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-09'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-10'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-11'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-12'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-13'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-14'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-15'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-16'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-17'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-18'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-19'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-20'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-21'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-22'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-23'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-24'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-25'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 49.2ms | Allocations: 29989)
+  Rendered sites/index.html.erb within layouts/application (Duration: 50.2ms | Allocations: 30342)
+  Rendered layout layouts/application.html.erb (Duration: 51.7ms | Allocations: 32077)
+Completed 200 OK in 53ms (Views: 42.6ms | ActiveRecord: 9.7ms | Allocations: 32334)
+
+
+Started GET "/?start_date=2025-07-07" for ::1 at 2025-05-09 16:38:02 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-07-07"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-07'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-08'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-09'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-10'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-11'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-12'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-13'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-14'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-15'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-16'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-17'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-18'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-19'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-20'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-21'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-22'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-23'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-24'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-25'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-31'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-08-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-08-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-08-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 41.6ms | Allocations: 24674)
+  Rendered sites/index.html.erb within layouts/application (Duration: 42.3ms | Allocations: 25020)
+  Rendered layout layouts/application.html.erb (Duration: 44.0ms | Allocations: 26739)
+Completed 200 OK in 45ms (Views: 37.2ms | ActiveRecord: 7.2ms | Allocations: 26995)
+
+
+Started GET "/?start_date=2025-05-25" for ::1 at 2025-05-09 16:38:02 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-05-25"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-07'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-08'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-09'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-10'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-11'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-12'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-13'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-14'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-15'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-16'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-17'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-18'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-19'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-20'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-21'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-22'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-23'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-24'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-25'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-31'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 47.2ms | Allocations: 24673)
+  Rendered sites/index.html.erb within layouts/application (Duration: 48.3ms | Allocations: 25019)
+  Rendered layout layouts/application.html.erb (Duration: 50.1ms | Allocations: 26736)
+Completed 200 OK in 52ms (Views: 41.8ms | ActiveRecord: 9.0ms | Allocations: 26992)
+
+
+Started GET "/?start_date=2025-04-27" for ::1 at 2025-05-09 16:38:03 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-04-27"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-31'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-07'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-08'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-09'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-10'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-11'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-12'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-13'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-14'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-15'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-16'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-17'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-18'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-19'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-20'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-21'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-22'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-23'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-24'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-25'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 58.8ms | Allocations: 24746)
+  Rendered sites/index.html.erb within layouts/application (Duration: 59.8ms | Allocations: 25092)
+  Rendered layout layouts/application.html.erb (Duration: 62.1ms | Allocations: 26818)
+Completed 200 OK in 63ms (Views: 51.9ms | ActiveRecord: 10.8ms | Allocations: 27075)
+
+
+Started GET "/?start_date=2025-04-27" for ::1 at 2025-05-09 16:38:04 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-04-27"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-31'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-07'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-08'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-09'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-10'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-11'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-12'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-13'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-14'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-15'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-16'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-17'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-18'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-19'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-20'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-21'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-22'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-23'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-24'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-25'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 41.6ms | Allocations: 24743)
+  Rendered sites/index.html.erb within layouts/application (Duration: 42.5ms | Allocations: 25089)
+  Rendered layout layouts/application.html.erb (Duration: 44.5ms | Allocations: 26806)
+Completed 200 OK in 46ms (Views: 37.3ms | ActiveRecord: 7.8ms | Allocations: 27063)
+
+
+Started GET "/?start_date=2025-03-30" for ::1 at 2025-05-09 16:38:04 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-03-30"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-02-24'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-02-25'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-02-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-02-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-02-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-07'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-08'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-09'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-10'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-11'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-12'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-13'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-14'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-15'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-16'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-17'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-18'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-19'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-20'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-21'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-22'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-23'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-24'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-25'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-03-31'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 41.7ms | Allocations: 29917)
+  Rendered sites/index.html.erb within layouts/application (Duration: 42.3ms | Allocations: 30270)
+  Rendered layout layouts/application.html.erb (Duration: 43.8ms | Allocations: 31996)
+Completed 200 OK in 45ms (Views: 37.3ms | ActiveRecord: 6.9ms | Allocations: 32252)
+
+
+Started GET "/?start_date=2025-05-09" for ::1 at 2025-05-09 16:38:04 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-05-09"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-07'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-08'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-09'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-10'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-11'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-12'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-13'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-14'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-15'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-16'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-17'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-18'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-19'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-20'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-21'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-22'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-23'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-24'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-25'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-31'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 42.5ms | Allocations: 24674)
+  Rendered sites/index.html.erb within layouts/application (Duration: 43.5ms | Allocations: 25020)
+  Rendered layout layouts/application.html.erb (Duration: 45.7ms | Allocations: 26743)
+Completed 200 OK in 47ms (Views: 38.5ms | ActiveRecord: 7.8ms | Allocations: 27000)
+
+
+Started GET "/?start_date=2025-05-05" for ::1 at 2025-05-09 16:38:05 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-05-05"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-04-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-07'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-08'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-09'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-10'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-11'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-12'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-13'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-14'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-15'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-16'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-17'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-18'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-19'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-20'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-21'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-22'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-23'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-24'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-25'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-31'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 45.2ms | Allocations: 24673)
+  Rendered sites/index.html.erb within layouts/application (Duration: 46.0ms | Allocations: 25019)
+  Rendered layout layouts/application.html.erb (Duration: 47.8ms | Allocations: 26763)
+Completed 200 OK in 52ms (Views: 39.4ms | ActiveRecord: 8.9ms | Allocations: 27020)
+
+
+Started GET "/?start_date=2025-06-02" for ::1 at 2025-05-09 16:38:05 +0900
+Processing by SitesController#index as HTML
+  Parameters: {"start_date"=>"2025-06-02"}
+  Rendering layout layouts/application.html.erb
+  Rendering sites/index.html.erb within layouts/application
+  [1m[36mReservation Count (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-05-31'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-07'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-08'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-09'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-10'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-11'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-12'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-13'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-14'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-15'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-16'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-17'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-18'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-19'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-20'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-21'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-22'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-23'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-24'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-25'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-26'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-27'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-28'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-29'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-06-30'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-01'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-02'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-03'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-04'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-05'[0m
+  ↳ app/views/sites/index.html.erb:18
+  [1m[36mReservation Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM `reservations` WHERE `reservations`.`start_date` = '2025-07-06'[0m
+  ↳ app/views/sites/index.html.erb:18
+  Rendered /Users/onotoshiharu/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/simple_calendar-3.1.0/app/views/simple_calendar/_month_calendar.html.erb (Duration: 43.5ms | Allocations: 29988)
+  Rendered sites/index.html.erb within layouts/application (Duration: 45.3ms | Allocations: 30341)
+  Rendered layout layouts/application.html.erb (Duration: 46.8ms | Allocations: 32067)
+Completed 200 OK in 48ms (Views: 38.8ms | ActiveRecord: 8.4ms | Allocations: 32324)
+
+
