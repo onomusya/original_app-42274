@@ -57,6 +57,8 @@ User -< Reservation >- Site | Payment
 | email              | string   | Deviseで自動生成             |
 | encrypted_password | string   | Deviseで自動生成             |
 | name               | string   | ユーザー名                   |
+| postal_code        | string   | 郵便番号                     |
+| address            | string   | 住所                        |
 
 ### sites
 
