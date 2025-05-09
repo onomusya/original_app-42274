@@ -70,7 +70,7 @@ User -< Reservation >- Site | Payment
 | description | text     | サイトの説明（任意）|
 
 ### reservations
- O
+
 | カラム名     | 型     | 備考                      |
 |--------------|--------|---------------------------|
 | user_id      | integer| 外部キー                   |
