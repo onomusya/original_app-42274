@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_05_09_062947) do
+ActiveRecord::Schema[7.1].define(version: 2025_05_09_061356) do
   create_table "reservations", charset: "utf8mb3", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.bigint "site_id", null: false
