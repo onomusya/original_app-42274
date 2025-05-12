@@ -1,12 +1,31 @@
-<div class="container text-center mt-5">
-  <h1 class="display-4 mb-4">GO CAMP</h1>
+
   <p class="lead">そうだ、キャンプ行こう</p>
 
-  <div class="mt-5">
-    <%= link_to "サイト紹介", "#", class: "btn btn-outline-success m-2" %>
-    <%= link_to "ルール", "#", class: "btn btn-outline-success m-2" %>
-    <%= link_to "予約", "#", class: "btn btn-success m-2" %>
-    <%= link_to "ログイン", new_user_session_path, class: "btn btn-outline-primary m-2" %>
-    <%= link_to "レンタル・販売品", "#", class: "btn btn-outline-success m-2" %>
-  </div>
-</div>
+<% current_month = params[:start_date] ? Date.parse(params[:start_date]).month : Date.current.month %>
+
+<%= month_calendar(first_day: :sunday) do |date| %>
+  <% if date.month != current_month %>
+    <div style="visibility: hidden;">.</div>
+  <% else %>
+    <div>
+      <% if date < Date.current %>
+        <%= date.day %><br>
+        <span style="color: red;">×</span>
+      <% else %>
+        <%= link_to reservations_path, class: "text-decoration-none text-dark" do %>
+          <%= date.day %><br>
+
+          <% reservations_count = Reservation.where(start_date: date).count %>
+          <% case reservations_count %>
+          <% when 0, 1 %>
+            <span style="color: green;">〇</span>
+          <% when 2, 3 %>
+            <span style="color: orange;">▲</span>
+          <% else %>
+            <span style="color: red;">×</span>
+          <% end %>
+        <% end %>
+      <% end %>
+    </div>
+  <% end %>
+<% end %>

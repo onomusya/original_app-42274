@@ -62,10 +62,12 @@ User -< Reservation >- Site | Payment
 
 ### sites
 
-| カラム名    | 型     | 備考           |
-|-------------|--------|----------------|
-| name        | string | A〜Dなどの識別名|
-| description | text   | サイト紹介文   |
+| カラム名    | 型         | 備考           |
+|-------------|----------|----------------|
+| name        | string   | A〜Dなどの識別名  |
+| capacity    | integer  | 収容人数         |
+| price       | integer  | 1泊の基本料金     |
+| description | text     | サイトの説明（任意）|
 
 ### reservations
 

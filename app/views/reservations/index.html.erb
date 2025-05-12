@@ -1,0 +1,29 @@
+<h1>ご予約状況</h1>
+
+<%= month_calendar(first_day: :sunday) do |date| %>
+  <% if date.month != Date.current.month %>
+    <!-- 当月以外は空白表示 -->
+    <div style="visibility: hidden;">.</div>
+  <% else %>
+    <div>
+      <% if date < Date.current %>
+        <strong><%= date.day %></strong><br>
+        <% Site.all.each do |site| %>
+          <%= site.name %>: <span style="color: red;">×</span><br>
+        <% end %>
+      <% else %>
+        <strong><%= date.day %></strong><br>
+        <% Site.all.each do |site| %>
+          <% reserved = Reservation.exists?(site_id: site.id, start_date: date) %>
+          <%= site.name %>:
+          <% if reserved %>
+            <span style="color: red;">×</span>
+          <% else %>
+            <%= link_to "◯", new_reservation_path(date: date, site_id: site.id),
+                        class: "text-decoration-none text-success" %>
+          <% end %><br>
+        <% end %>
+      <% end %>
+    </div>
+  <% end %>
+<% end %>
