@@ -8,7 +8,10 @@ class ReservationsController < ApplicationController
   end
 
   def new
-    @reservation = Reservation.new(start_date: params[:date])
+    @reservation = Reservation.new(
+    site_id: params[:site_id],
+    start_date: params[:date]
+    )
     @sites = Site.all
   end
 
@@ -27,5 +30,5 @@ class ReservationsController < ApplicationController
   def reservation_params
     params.require(:reservation).permit(:site_id, :start_date, :end_date)
   end
-  
+
 end

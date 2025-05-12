@@ -1,14 +1,17 @@
-<h2>予約フォーム</h2>
+<h2>ご予約フォーム</h2>
 
 <%= form_with model: @reservation, local: true do |form| %>
   <div class="mb-3">
     <%= form.label :site_id, "サイトを選択" %>
-    <%= form.collection_select :site_id, @sites, :id, :name, prompt: "選択してください", class: "form-select" %>
+    <%= form.collection_select :site_id, @sites, :id, :name, {
+          prompt: "選択してください",
+          selected: params[:site_id]
+        }, class: "form-select" %>
   </div>
 
   <div class="mb-3">
     <%= form.label :start_date, "開始日" %>
-    <%= form.date_field :start_date, class: "form-control" %>
+    <%= form.date_field :start_date, value: params[:date], class: "form-control" %>
   </div>
 
   <div class="mb-3">
