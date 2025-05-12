@@ -6,6 +6,7 @@
     <div style="visibility: hidden;">.</div>
   <% else %>
     <div>
+      <% if ActiveRecord::Base.connection.data_source_exists?('sites') %>
       <% if date < Date.current %>
         <strong><%= date.day %></strong><br>
         <% Site.all.each do |site| %>
@@ -13,7 +14,6 @@
         <% end %>
       <% else %>
         <strong><%= date.day %></strong><br>
-        <% if ActiveRecord::Base.connection.data_source_exists?('sites') %>
         <% Site.all.each do |site| %>
           <% reserved = Reservation.exists?(site_id: site.id, start_date: date) %>
           <%= site.name %>:
