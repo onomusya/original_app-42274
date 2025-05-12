@@ -6,6 +6,8 @@
     <div style="visibility: hidden;">.</div>
   <% else %>
     <div>
+
+<% end %>
       <% if ActiveRecord::Base.connection.data_source_exists?('sites') %>
       <% if date < Date.current %>
         <strong><%= date.day %></strong><br>
