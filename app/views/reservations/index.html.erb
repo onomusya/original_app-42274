@@ -11,9 +11,9 @@
   end %>
 
   <div>
-    <strong>
-      <%= link_to date.day, new_reservation_path, class: "calendar-day", data: { date: date } %>
-    </strong><br>
-    空き: <%= mark %>
-  </div>
+  <strong>
+    <%= link_to date.day, new_reservation_path(date: date), class: "calendar-day" %>
+  </strong><br>
+  空き: <%= mark %>
+</div>
 <% end %>

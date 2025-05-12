@@ -1,21 +1,5 @@
-<div class="container text-center mt-5">
-  <h1 class="display-4 mb-4">GO CAMP</h1>
-  <p class="lead">そうだ、キャンプ行こう</p>
 
-  <div class="mt-5">
-    <%= link_to "予約する", reservations_path, class: "btn btn-success m-2" %>
-    <%= link_to "サイト紹介", "#", class: "btn btn-outline-success m-2" %>
-    <%= link_to "ルール", "#", class: "btn btn-outline-success m-2" %>
-    <%= link_to "レンタル・販売品", "#", class: "btn btn-outline-success m-2" %>
-    <%= link_to "アクセス", "#", class: "btn btn-outline-secondary m-2" %>
-    <% if user_signed_in? %>
-      <%= link_to "ログアウト", destroy_user_session_path, data: { turbo_method: :delete }, class: "btn btn-outline-danger m-2" %>
-    <% else %>
-      <%= link_to "ログイン", new_user_session_path, class: "btn btn-outline-primary m-2" %>
-      <%= link_to "新規登録", new_user_registration_path, class: "btn btn-primary m-2" %>
-    <% end %>
-  </div>
-</div>
+  <p class="lead">そうだ、キャンプ行こう</p>
 
 <%= month_calendar do |date| %>
   <div>

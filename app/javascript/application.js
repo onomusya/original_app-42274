@@ -16,3 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
+import "@popperjs/core"
+import "bootstrap"
